@@ -11,6 +11,9 @@
     max-width: 100%;
     margin-left: 200px;
 }
+#img1{
+    width: 100px;
+}
 .span{
     font-size: 45px;
     font-weight: bolder;
@@ -59,6 +62,20 @@ h1{
 }
 .sec3{
     margin-top: 10%;
+}
+.div{
+    color: var(--lightblue);
+    box-sizing: border-box;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px var(--lightblue);
+    width: 400px;
+    text-align: center;
+
+}
+
+.div:hover {
+    transition: ease-in-out 1s;
 }
 
 
