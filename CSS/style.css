@@ -52,9 +52,13 @@ footer {
    background-color: var(--lightblue);
    border-radius: 5px;
 }
-h2{
+h1{
     color: var(--lightblue);
-    text-align: center;
+    text-align: center; 
+    margin-top: 10%;
+}
+.sec3{
+    margin-top: 10%;
 }
 
 
