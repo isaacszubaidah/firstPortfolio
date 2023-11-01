@@ -6,6 +6,9 @@
     --lightblue:#64B2DE;
 
 }
+body {
+    overflow-x: hidden;
+}
 #image{
     width: 370px;
     max-width: 100%;
@@ -64,6 +67,9 @@ h1{
 .sec3{
     margin-top: 10%;
 }
+.sec2{
+    margin-bottom: 10%;
+}
 .div{
 
     color: var(--lightblue);
@@ -75,12 +81,5 @@ h1{
     text-align: center;
 
 }
-
-.div:hover {
-    transition: ease-in-out 1s;
-    margin-top: 10%;
-}
-
-
 
 
