@@ -91,6 +91,9 @@ h1{
 #form{
     text-align: center;
  }
+:is(input[type="text"], input[type="email"], textarea){
+    font-weight: bolder;
+}
  #input{
     padding: 10px;
     border-radius: 9px;
