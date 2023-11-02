@@ -95,19 +95,27 @@ h1{
  }
 :is(input[type="text"], input[type="email"], textarea){
     font-weight: bolder;
+    text-align: center;
 }
- #input{
-    padding: 10px;
-    border-radius: 9px;   
- }
  #text{
-    background-color:white;
+    width: 300px;
+    height: 70px;
+    border-radius: 5px; 
  }
- #text{
-    margin: 4%;
-    padding: 10px;
-    border-radius: 9px;
+ #text1{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font-size: small;
  }
+button[type=submit]{
+    background-color: var(--lightblue);
+    height: 20px;
+
+}
+
+
+
 
 .carousel-container {
     display: flex;
