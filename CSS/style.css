@@ -3,7 +3,7 @@
     font-size: 20px;
 }
 :root{
-    --lightblue:#64B2DE;
+    --lightblue:#99ceed;
 
 }
 section{
@@ -12,6 +12,7 @@ section{
 body {
     overflow-x: hidden;
 }
+
 #image{
     width: 370px;
     max-width: 100%;
@@ -22,7 +23,7 @@ body {
 }
 #img2{
     width: 300px;
-    height: 200px;
+    height: 250px;
 }
 .span{
     font-size: 45px;
@@ -88,6 +89,7 @@ h1{
     text-align: center;
 
 }
+
 #form{
     text-align: center;
  }
@@ -103,3 +105,46 @@ h1{
     padding: 10px;
     border-radius: 9px;
  }
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 70vh;
+  }
+/* .carousel-indicators button {
+    background-color:var(--lightblue); 
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px; 
+    border-radius: 5px; 
+    color: #fff; 
+    cursor: pointer;
+} */
+.carousel-button {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px; /* Adjust left position as needed */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+.carousel-indicators .active{
+    background-color: var(--lightblue);
+  
+
+}
+
+#text{
+    max-width: 300px;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center; 
+    font-size: small
+    
+}
+
