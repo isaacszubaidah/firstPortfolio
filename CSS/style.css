@@ -1,10 +1,13 @@
 *{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size: 20px;
 }
 :root{
     --lightblue:#64B2DE;
 
+}
+section{
+    scroll-margin-block: 4rem;
 }
 body {
     overflow-x: hidden;
@@ -85,4 +88,18 @@ h1{
     text-align: center;
 
 }
-
+#form{
+    text-align: center;
+ }
+ #input{
+    padding: 10px;
+    border-radius: 9px;
+ }
+ #text{
+    background-color:white;
+ }
+ #text{
+    margin: 4%;
+    padding: 10px;
+    border-radius: 9px;
+ }
