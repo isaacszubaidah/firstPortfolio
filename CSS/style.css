@@ -16,7 +16,7 @@ body {
 #image{
     width: 370px;
     max-width: 100%;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 #img1{
     width: 100px;
@@ -75,9 +75,7 @@ h1{
 .sec3{
     margin-top:10%;
 }
-.sec2{
-    margin-bottom: 2%;
-}
+
 .div{
 
     color: var(--lightblue);
