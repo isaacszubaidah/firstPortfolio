@@ -168,10 +168,10 @@ button[type=submit] {
 }
 
 .carousel-indicators {
-    margin-top:50px !important ;
+    margin-top: 50px !important;
 }
 
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
     background-color: #99ceed;
     top: 10px
 }
@@ -233,16 +233,24 @@ a {
 }
 
 
-.project-card{
+.project-card {
     width: 350px;
-    height:350px;
+    height: 350px;
+}
+
+.icons-contact {
+    width: 40px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 480px) {
     .main-section-1 {
         display: flex;
-        flex-direction: column-reverse ;
+        flex-direction: column-reverse;
     }
+
     #image {
         width: 350px;
         max-width: 100%;
@@ -250,15 +258,13 @@ a {
         object-fit: cover;
     }
 
-    .project-card{
+    .project-card {
         width: 100%;
-        height:400px;
+        height: 400px;
     }
-    
+
 }
 
 /* .container-fluid3{
     padding-top: 30px;
 } */
-
-
