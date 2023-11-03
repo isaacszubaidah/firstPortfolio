@@ -287,6 +287,9 @@ button[type=submit] {
 .navbar-toggler {
     border: none !important;
 }
+.logo-div{
+    width: 50%;
+}
 
 @media screen and (max-width: 480px) {
     .main-section-1 {
@@ -314,6 +317,10 @@ button[type=submit] {
     .input-form-textarea {
         height: 150px;
         width: 350px;
+    }
+
+    .logo-div{
+        width: 100%;
     }
 
     button[type=submit] {
