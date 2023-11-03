@@ -112,8 +112,9 @@ h1{
     padding: 10px 20px;
     cursor: pointer;
   }
-.carousel-indicators .active{
-    background-color: var(--lightblue);
+.carousel-indicators{
+    bottom: -60px;
+    background-color: #007bff;
   
 
 }
