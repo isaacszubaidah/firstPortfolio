@@ -177,4 +177,9 @@ h2 {
     50%  {color: blue;}
     100% {color: green;}
   }
+  @media screen (max-width: 768px) {
+
+
+    
+  }
 
