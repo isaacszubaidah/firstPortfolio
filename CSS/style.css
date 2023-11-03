@@ -167,3 +167,15 @@ button[type=submit]{
 .cardheader1{
     height: 10px;
 }
+h2 {
+    color: black;
+    animation-name: example;
+    animation-duration: 10s;
+  }
+  
+  @keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
