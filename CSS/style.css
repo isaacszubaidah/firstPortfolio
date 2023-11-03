@@ -84,6 +84,7 @@ h1{
     border-radius: 30px;
     box-shadow: 10px 10px 10px var(--lightblue);
     width: 400px;
+    height: 200px;
     text-align: center;
 
 }
@@ -91,18 +92,29 @@ h1{
 #form{
     text-align: center;
  }
- #input{
-    padding: 10px;
-    border-radius: 9px;
- }
+:is(input[type="text"], input[type="email"], textarea){
+    font-weight: bolder;
+    text-align: center;
+}
  #text{
-    background-color:white;
+    width: 300px;
+    height: 70px;
+    border-radius: 5px; 
  }
- #text{
-    margin: 4%;
-    padding: 10px;
-    border-radius: 9px;
+ #text1{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font-size: small;
  }
+button[type=submit]{
+    background-color: var(--lightblue);
+    height: 20px;
+
+}
+
+
+
 
 .carousel-container {
     display: flex;
@@ -145,4 +157,8 @@ h1{
     font-size: small
     
 }
-
+.card{
+    border-color: white;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px var(--lightblue);
+}
