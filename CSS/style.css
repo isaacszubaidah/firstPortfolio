@@ -1,49 +1,58 @@
-*{
+* {
     font-family: 'Inter';
-    font-size: 20px;
 }
-:root{
-    --lightblue:#99ceed;
+
+:root {
+    --lightblue: #99ceed;
 
 }
-section{
+
+section {
     scroll-margin-block: 4rem;
 }
+
 body {
     overflow-x: hidden;
 }
 
-#image{
+#image {
     width: 370px;
     max-width: 100%;
     margin-left: 100px;
 }
-#img1{
+
+#img1 {
     width: 100px;
 }
-#img2{
+
+#img2 {
     width: 300px;
     height: 280px;
 }
-.span{
+
+.span {
     font-size: 45px;
     font-weight: bolder;
-    color:var(--lightblue);
+    color: var(--lightblue);
 }
-.port{
+
+.port {
     font-size: x-large;
     font-family: 'Syncopate';
     color: white;
 }
-.footer{
+
+.footer {
     background-color: var(--lightblue);
 }
-.my{
+
+.my {
     font-size: 30px;
-  font-weight: normal;
+    font-weight: normal;
     color: white;
     font-family: 'DM Serif Display', serif;
 }
+
 footer {
     position: static;
     bottom: 50px;
@@ -51,32 +60,35 @@ footer {
     right: 0;
 }
 
-.copyright{
+.copyright {
     position: static;
     bottom: 65px;
     left: 1;
-    right: 0; 
+    right: 0;
 }
 
-.paragraph{
+.paragraph {
     color: white;
     font-size: small;
 }
-.contactbutton{
-   background-color: var(--lightblue);
-   border-radius: 5px;
+
+.contactbutton {
+    background-color: var(--lightblue);
+    border-radius: 5px;
 }
-h1{
+
+h1 {
 
     color: var(--lightblue);
-    text-align: center; 
+    text-align: center;
     margin-top: 10%;
 }
-.sec3{
-    margin-top:10%;
+
+.sec3 {
+    margin-top: 10%;
 }
 
-.div{
+.div {
 
     color: var(--lightblue);
     box-sizing: border-box;
@@ -90,25 +102,29 @@ h1{
 
 }
 
-#form{
+#form {
     text-align: center;
- }
-:is(input[type="text"], input[type="email"], textarea){
+}
+
+:is(input[type="text"], input[type="email"], textarea) {
     font-weight: bolder;
     text-align: center;
 }
- #text{
+
+#text {
     width: 300px;
     height: 70px;
-    border-radius: 5px; 
- }
- #text1{
+    border-radius: 5px;
+}
+
+#text1 {
     width: 300px;
     height: 150px;
     border-radius: 5px;
     font-size: small;
- }
-button[type=submit]{
+}
+
+button[type=submit] {
     background-color: var(--lightblue);
     height: 20px;
 
@@ -120,9 +136,10 @@ button[type=submit]{
 .carousel-container {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     height: 70vh;
-  }
+}
+
 /* .carousel-indicators button {
     background-color:var(--lightblue); 
     border: none;
@@ -136,38 +153,44 @@ button[type=submit]{
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 20px; /* Adjust left position as needed */
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Button text color */
+    left: 20px;
+    /* Adjust left position as needed */
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-  }
-.carousel-indicators{
+}
+
+.carousel-indicators {
     bottom: -60px;
     background-color: #007bff;
-  
+
 
 }
 
-#text{
+#text {
     max-width: 300px;
     display: flex;
     margin-top: 3%;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     font-size: small
-    
 }
-.card{
+
+.card {
     border-color: white;
     box-sizing: border-box;
     box-shadow: 10px 10px 10px var(--lightblue);
 }
-.cardheader1{
+
+.cardheader1 {
     height: 10px;
 }
-h2 {
+
+/* h2 {
     color: black;
     animation-name: example;
     animation-duration: 10s;
@@ -178,11 +201,42 @@ h2 {
     25%  {color: yellow;}
     50%  {color: blue;}
     100% {color: green;}
-  }
+  } */
 
-.stick-nav{
+.stick-nav {
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 60;
+}
+
+.zubaidah {
+    color: #64B2DE;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 480px) {
+    .main-section-1 {
+        display: flex;
+        flex-direction: column-reverse ;
+    }
+    #image {
+        width: 300px;
+        max-width: 100%;
+        margin-left: 0px;
+        object-fit: cover;
+    }
 }
