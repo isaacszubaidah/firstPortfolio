@@ -139,7 +139,7 @@ h1{
 #text{
     max-width: 300px;
     display: flex;
-    margin-top: 2%;
+    margin-top: 3%;
     justify-content: center;
     align-items: center; 
     font-size: small
