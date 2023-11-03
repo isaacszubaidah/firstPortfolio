@@ -1,5 +1,7 @@
 * {
     font-family: 'Inter';
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 :root {
@@ -94,7 +96,7 @@ h1 {
     box-sizing: border-box;
     border-color: white;
     border-radius: 30px;
-    box-shadow: 10px 10px 10px var(--lightblue);
+    box-shadow: 5px 10px 20px var(--lightblue);
     width: 400px;
     height: 300px;
     text-align: center;
@@ -162,13 +164,16 @@ button[type=submit] {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .carousel-indicators {
-    bottom: -60px;
-    background-color: #007bff;
+    margin-top:50px !important ;
+}
 
-
+.carousel-indicators [data-bs-target]{
+    background-color: #99ceed;
+    top: 10px
 }
 
 #text {
@@ -183,7 +188,7 @@ button[type=submit] {
 .card {
     border-color: white;
     box-sizing: border-box;
-    box-shadow: 10px 10px 10px var(--lightblue);
+    box-shadow: 5px 10px 20px var(--lightblue);
 }
 
 .cardheader1 {
@@ -228,15 +233,32 @@ a {
 }
 
 
+.project-card{
+    width: 350px;
+    height:350px;
+}
+
 @media screen and (max-width: 480px) {
     .main-section-1 {
         display: flex;
         flex-direction: column-reverse ;
     }
     #image {
-        width: 300px;
+        width: 350px;
         max-width: 100%;
         margin-left: 0px;
         object-fit: cover;
     }
+
+    .project-card{
+        width: 100%;
+        height:400px;
+    }
+    
 }
+
+/* .container-fluid3{
+    padding-top: 30px;
+} */
+
+
