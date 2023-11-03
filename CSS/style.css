@@ -159,4 +159,8 @@ button[type=submit]{
     font-size: small
     
 }
-
+.card{
+    border-color: white;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px var(--lightblue);
+}
